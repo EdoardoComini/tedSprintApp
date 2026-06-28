@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart'; // <--- Questo serve per ProviderScope!
-
+import 'screens/watch_next_screen.dart';
 void main() {
   runApp(
     const ProviderScope( 
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: TempTestScreen(), // Schermata temporanea per non fare errori prima del push
+       home:const WatchNextScreen(), // Schermata temporanea per non fare errori prima del push
       ),
     ),
   );
 }
 
-// Schermata temporanea di test che verrà sostituita dal tuo amico
+
 class TempTestScreen extends StatelessWidget {
   const TempTestScreen({super.key});
 
