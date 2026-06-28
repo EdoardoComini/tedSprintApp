@@ -14,7 +14,7 @@ tedSprintApp/
 └── frontend/
     └── lib/
         ├── models/           # Modelli dati e strato Domain (Flutter)
-        ├── providers/        # [Pronto per Antonio] Gestione dello stato globale
+        ├── providers/        # Gestione dello stato globale
         └── screens/          # [Pronto per Antonio] Interfacce e schermate della UI
 💡 Nota per i Collaboratori: Le cartelle providers e screens sono attualmente configurate con la struttura ufficiale pronta all'uso. I file specifici per queste sezioni verranno caricati direttamente dai rispettivi proprietari.
 
